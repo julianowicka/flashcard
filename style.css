@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*images */
+
+.container {
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+}
+
+.circle {
+    width: 1060px;
+    height: 1060px;
+    background: #EFEFEF;
+    -moz-border-radius: 530px;
+    -webkit-border-radius: 530px;
+    border-radius: 530px;
+    margin-right: auto;
+    position: absolute;
+    left: 405px;
+    top: 25;
+}
+
+.calc {
+    background: url(images/calc.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 115px;
+    height: 140px;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+}
+
+.notebook {
+    background: url(images/notebook.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 430px;
+    height: 568px;
+    position: absolute;
+    left: 850px;
+    top: 280px;
+    display: block;
+}
+
+.coffe {
+    background: url(images/coffe.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 246px;
+    height: 210px;
+    position: absolute;
+    left: 642px;
+    top: 64px;
+}
+
+.ipad {
+    background: url(images/ipad.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    left: 670px;
+    top: 660px;
+}
+
+.note {
+    background: url(images/note.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 132px;
+    height: 145px;
+    position: absolute;
+    left: 500px;
+    top: 240px;
+}
+
+.pen {
+    background: url(images/pen.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 25px;
+    height: 333px;
+    position: absolute;
+    left: 1300px;
+    top: 430px;
+}
+
+.phone {
+    background: url(images/phone.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 158px;
+    height: 245px;
+    position: absolute;
+    left: 1350px;
+    top: 630px;
+}
+
+.pin {
+    background: url(images/pin.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 37px;
+    height: 56px;
+    margin-top: 300px;
+    margin-left: 500px;
+    position: absolute;
+    left: 180px;
+    top: 480px;
+}
+
+.rubber {
+    background: url(images/rubber.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 65px;
+    height: 120px;
+    margin-right: auto;
+    position: absolute;
+    left: 700px;
+    top: 500px;
+}
+
+.ruller {
+    background: url(images/ruller.svg);
+    display: block;
+    width: 166px;
+    height: 252px;
+    position: absolute;
+    left: 486px;
+    top: 430px;
+}
+
+.spin {
+    background: url(images/spin.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 32px;
+    height: 65px;
+    margin-top: 300px;
+    margin-left: 500px;
+    margin-right: auto;
+    position: absolute;
+    left: 240px;
+    top: 480px;
+}
+
+
+/*images*/
+
+.card {
+    -webkit-perspective: 1000;
+    position: absolute;
+    position: absolute;
+    left: 928px;
+    top: 450px;
+    border: solid black 2px;
+    background-color: #FFE6E6;
+}
+
+.dodaj {}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    left: 40px;
+    top: 300px;
+}
+
+li {
+    padding: 10px;
+}
+
+input[type=text] {
+    background-color: #928199;
+    color: white;
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    display: block;
+}
+
+.pos {
+    position: absolute;
+    left: 90px;
+    top: 600px;
+}
+
+.txt {
+    text-align: center;
+    padding: 20px;
+}
+
+.begin {
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    font-size: 1.75em;
+    position: absolute;
+    left: 95px;
+    /*margin: 25%;*/
+    top: 100px;
+    /*padding: 20px;*/
+    width: 200px;
+    height: 200px;
+    background: blue;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    /*background-color: #F96262;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f79b9b+0,f77b7b+40,f96262+100 */
+    background: #f79b9b;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f79b9b 0%, #f77b7b 40%, #f96262 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f79b9b 0%, #f77b7b 40%, #f96262 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f79b9b 0%, #f77b7b 40%, #f96262 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f79b9b', endColorstr='#f96262', GradientType=0);
+    /* IE6-9 */
+}
+
+.begin:hover {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    font-size: 1.75em;
+    color: white;
+    position: absolute;
+    left: 95px;
+    /*margin: 25%;*/
+    top: 100px;
+    /*padding: 20px;*/
+    width: 200px;
+    height: 200px;
+    background: blue;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    /*background-color: #F96262;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f79b9b+0,f77b7b+40,f96262+100 */
+    background: #BA4242;
+    /* Old browsers */
+}
+
+.btns {}
+
+
+/*.holder{
+  margin: 15% auto;
+  height: 125px;
+  width: 255px;
+  margin-top:5%;
+  border:solid black  2px;
+  position: absolute; left: 850px; top: 340px;
+
+}*/
+
+.txt2 {
+    font-size: 14px;
+}
+
+.flashcard {
+    border: 1px solid black;
+    margin: 15% auto;
+    height: 125px;
+    width: 255px;
+    margin-top: 5%;
+    -webkit-transform-style: preserve-3d;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.flipped {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+.front {
+    position: absolute;
+    /*-webkit-backface-visibility: hidden;*/
+    height: 125px;
+    width: 255px;
+    text-align: center;
+}
+
+.back {
+    /*
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);*/
+    position: absolute;
+    /*-webkit-backface-visibility: hidden;*/
+    height: 125px;
+    width: 255px;
+    text-align: center;
+    color: red;
+}
+
+.front p, .back p {
+    margin-top: 30%;
+    font-size: 2em;
+}
+
+.vanish {
+    /*  backface-visibility:hidden;*/
+    display: none;
+}
+
+
+/*BUTTONS*/
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 16px;
+}
+
+.btn-lg {
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+.round {
+    border-radius: 24px;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-lg.round {
+    border-radius: 24px;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open> .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+
+/*koniec*/

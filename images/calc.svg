@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 115 140" enable-background="new 0 0 115 140" xml:space="preserve">
+<path opacity="0.24" fill="#A03333" d="M107,138H15c-3.3,0-6-2.7-6-6V12c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6v120
+	C113,135.3,110.3,138,107,138z"/>
+<g>
+	<path fill="#E2E2E2" d="M103,135H11c-3.3,0-6-2.7-6-6V9c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6v120C109,132.3,106.3,135,103,135z"/>
+	<g>
+		<circle fill="#949494" cx="21" cy="48" r="8"/>
+		<circle fill="#949494" cx="45" cy="48" r="8"/>
+		<circle fill="#B0B0B0" cx="69" cy="48" r="8"/>
+		<circle fill="#B0B0B0" cx="93" cy="48" r="8"/>
+		<circle fill="#B0B0B0" cx="21" cy="72" r="8"/>
+		<circle fill="#B0B0B0" cx="45" cy="72" r="8"/>
+		<circle fill="#B0B0B0" cx="69" cy="72" r="8"/>
+		<circle fill="#B0B0B0" cx="93" cy="72" r="8"/>
+		<circle fill="#B0B0B0" cx="21" cy="96" r="8"/>
+		<circle fill="#B0B0B0" cx="45" cy="96" r="8"/>
+		<circle fill="#B0B0B0" cx="69" cy="96" r="8"/>
+		<circle fill="#B0B0B0" cx="93" cy="96" r="8"/>
+		<circle fill="#B0B0B0" cx="21" cy="120" r="8"/>
+		<circle fill="#B0B0B0" cx="45" cy="120" r="8"/>
+		<circle fill="#B0B0B0" cx="69" cy="120" r="8"/>
+		<circle fill="#B0B0B0" cx="93" cy="120" r="8"/>
+	</g>
+	<path fill="#A3A3A3" d="M99,32H15c-1.1,0-2-0.9-2-2V14c0-1.1,0.9-2,2-2h84c1.1,0,2,0.9,2,2v16C101,31.1,100.1,32,99,32z"/>
+	<rect x="91" y="16" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="93" y="16" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="95" y="18" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="95" y="20" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="95" y="22" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="95" y="24" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="93" y="26" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="91" y="26" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="89" y="24" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="89" y="18" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="89" y="22" fill="#8A8A8A" width="2" height="2"/>
+	<rect x="89" y="20" fill="#8A8A8A" width="2" height="2"/>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M103,135H11c-3.3,0-6-2.7-6-6V9c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6v120C109,132.3,106.3,135,103,135z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<defs>
+				
+					<rect id="SVGID_3_" x="-26.7" y="-38.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 8.5405 24.04)" width="120" height="80"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  overflow="visible"/>
+			</clipPath>
+			<g clip-path="url(#SVGID_4_)">
+				<defs>
+					
+						<rect id="SVGID_5_" x="-26.7" y="-38.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 8.5405 24.04)" width="120" height="80"/>
+				</defs>
+				<clipPath id="SVGID_6_">
+					<use xlink:href="#SVGID_5_"  overflow="visible"/>
+				</clipPath>
+				
+					<rect x="-26.7" y="-38.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 8.5405 24.04)" opacity="9.000000e-002" clip-path="url(#SVGID_6_)" fill="#FFFFFF" width="120" height="80"/>
+			</g>
+			
+				<rect x="-26.7" y="-38.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 8.5405 24.04)" opacity="9.000000e-002" clip-path="url(#SVGID_4_)" fill="#FFFFFF" width="120" height="80"/>
+		</g>
+	</g>
+</g>
+</svg>
