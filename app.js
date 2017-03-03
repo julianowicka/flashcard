@@ -79,52 +79,56 @@ $(document).ready(function() {
                     });
                     break;
 
-                case 2:
-                    if (handler == true) {
-                        if (reviewTable.length == 0) {
-                            alert('W powtorce nie ma nic do usuniecia');
-                            flash.fadeOut('400', function() {
-                                card.eq(0).find('p').text('Brak pytan w powtorce'); //questionAnswer[0][0]);
-                                card.eq(1).find('p').text('Wracasz do domyslnego trybu'); //questionAnswer[0][1]);
-                                arrays(questionAnswer);
-                                flash.fadeIn('400');
-                            });
-                            break;
-                        } else {
-
-                            console.log('Usunieto z powtorki');
-                            console.log(reviewTable[j][0] + " " + reviewTable[j][1]);
-                            reviewTable.splice(j, 1);
-                            //cleanTable(reviewTable,j);
-                            //
-                            if (reviewTable.length != 0) {
-
-
-                                if (j++ > reviewTable.length) {
-                                    j = 0;
-                                } else {
-                                    j++
-                                }
-                                flash.fadeOut('400', function() {
-                                    card.eq(0).find('p').text('pytanie usuniete'); //reviewTable[0][0]);
-                                    card.eq(1).find('p').text('kliknij');
-                                    arrays(reviewTable);
-                                    flash.fadeIn('400');
-                                });
-
-                            } else {
-                                flash.fadeOut('400', function() {
-                                    card.eq(0).find('p').text('Brak pytan w powtorce'); //questionAnswer[0][0]);
-                                    card.eq(1).find('p').text('Wracasz do domyslnego trybu'); //questionAnswer[0][1]);
-                                    arrays(questionAnswer);
-                                    flash.fadeIn('400');
-                                });
-                            }
-                        }
-                    }
-
-                    break;
-
+                  case 2:
+        if(handler == true)
+          {
+            if(reviewTable.length == 0)
+            {
+              alert('W powtorce nie ma nic do usuniecia');
+              flash.fadeOut('400', function()
+              {
+                arrays(questionAnswer);
+                card.eq(0).find('p').text('B111rak pytan w powtorce');//questionAnswer[0][0]);
+                card.eq(1).find('p').text('Wracasz do domyslnego trybu');//questionAnswer[0][1]);
+                flash.fadeIn('400');
+              });
+              break;
+            }
+            else
+            {
+ 
+            console.log('Usunieto z powtorki');
+            console.log(reviewTable[j][0]+" "+reviewTable[j][1]);
+                reviewTable.splice(j,1);
+                //cleanTable(reviewTable,j);
+                //
+                if(reviewTable.length != 0)
+                {
+                  flash.fadeOut('400', function()
+                  {
+                    arrays(reviewTable);
+                    card.eq(0).find('p').text('pytanie usuniete');//reviewTable[0][0]);
+                    card.eq(1).find('p').text('kliknij');
+                    flash.fadeIn('400');
+                  });
+ 
+              }
+                else
+                {
+                  flash.fadeOut('400', function()
+                  {
+                    card.off();
+                    handler=false;
+                    arrays(questionAnswer);
+                    card.eq(0).find('p').text('Bra222k pytan w powtorce');//questionAnswer[0][0]);
+                    card.eq(1).find('p').text('Wracasz do domyslnego trybu');//questionAnswer[0][1
+                    flash.fadeIn('400');
+                  });
+                }
+            }
+          }
+ 
+        break;
                 case 3:
                     if (handler == true) {
                         handler = false;
